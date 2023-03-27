@@ -1,0 +1,61 @@
+body{
+    padding: 0%;
+    margin: 0;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.counter-base{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50%;
+    color: white;
+}
+
+.negative-btn, .positive-btn{
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.negative-btn{
+    background-color: red;
+}
+
+.positive-btn{
+    background-color: cornflowerblue;
+}
+
+.negative-btn, .positive-btn, .reset-btn :hover{
+    cursor: pointer;
+}
+
+.counter{
+    background-color: rgb(98, 192, 4);
+    width: 70px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.reset-btn{
+    margin-top: 3%;
+    background-color: darkgoldenrod;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #f1f1f1;
+}
