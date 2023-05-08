@@ -1,0 +1,25 @@
+body{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background-color: cornflowerblue;
+    width: 60%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity{
+    display: inline;
+}
+
+@media screen and (max-width: 767px){
+    .content{
+        width: 90%;
+    }
+}
